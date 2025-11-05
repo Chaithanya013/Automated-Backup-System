@@ -14,7 +14,7 @@ A new backup was successfully created for the `./data` folder. The script compre
 
 **Expected Output:**
 ```
-SUCCESS: Backup created: ./backups/backup-YYYY-MM-DD-HHMM.tar.gz
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup.png
 ```
 
 ---
@@ -30,17 +30,25 @@ TIMESTAMP="2025-11-01-1030"
 **Description:**  
 Backups were created with modified timestamps to simulate backups across multiple days. This validated the rotation system. When backups exceeded the limit, the script automatically deleted older backups to comply with retention rules.
 
+**Expected Output:**
+```
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Creating_multiple_backups_over_several_Days.png
+```
+Listing Backups:
+```
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup_list.png
+```
 ---
 
 ### 3. Automatic Deletion of Old Backups  
 **Description:**  
 Once the number of backups exceeded the retention policy (7 daily, 4 weekly, 3 monthly), the system identified and removed outdated ones. The deletion events were logged:
-```
-INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
-INFO: Deleted old backup: backup-2025-10-02-1030.tar.gz
-```
-This ensured efficient disk space usage and validated the smart rotation logic.
 
+**Expected Output:**
+```
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Automatic_Deletion_of_Old_Backup.png
+
+```
 ---
 
 ### 4. Restoring from a Backup  
@@ -53,7 +61,8 @@ The restore functionality extracted archived files back into a directory (`./res
 
 **Expected Output:**
 ```
-SUCCESS: Restored backup to ./restore_test
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Restoring_from_a_backup.png
+
 ```
 
 ---
@@ -64,10 +73,13 @@ SUCCESS: Restored backup to ./restore_test
 ./backup.sh --dry-run ./data
 ```
 **Description:**  
-Dry-run mode simulated backup operations without performing real file changes. The script displayed actions it *would* execute:
+Dry-run mode simulated backup operations without performing real file changes.
+
+**Expected Output:**
+
 ```
-Would run: tar -czf backup-2025-11-04-1030.tar.gz ...
-Would delete old backup: backup-2025-10-01-1030.tar.gz
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Dry_Run_Mode.png
+
 ```
 This feature provided a safe preview before actual backups.
 
@@ -79,24 +91,14 @@ This feature provided a safe preview before actual backups.
 ./backup.sh ./ghost_folder
 ```
 **Description:**  
-The script detected that the target folder did not exist and safely aborted without crashing. It printed an appropriate error message and simulated an email notification:
+The script detected that the target folder did not exist and safely aborted without crashing. It printed an appropriate error message and simulated an email notification.
+
+**Expected Output:**
+
 ```
-ERROR: Source folder not found: ./ghost_folder
+https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Error_Handling.png
 ```
 This validated the script’s resilience and proper error handling.
-
----
-
-### 🧾 Summary of Test Results
-| Test Case | Status | Result |
-|------------|---------|---------|
-| Backup creation | ✅ | Successful |
-| Multiple backups (simulated days) | ✅ | Working |
-| Old backup deletion | ✅ | Confirmed in logs |
-| Restore backup | ✅ | Successful |
-| Dry run mode | ✅ | Simulated correctly |
-| Error handling | ✅ | Graceful exit |
-
 ---
 
 **End of Demonstration Section**  
