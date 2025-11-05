@@ -97,6 +97,20 @@ The script detected that the target folder did not exist and safely aborted with
 This validated the script’s resilience and proper error handling.
 ---
 
+### 7. Email Notification Simulation
+**Command:**
+```bash
+./backup.sh ./data
+cat email.txt
+```
+**Description:**
+The script simulates sending email alerts after each backup or restore operation.
+Instead of sending real emails, it writes the notification details to a file named email.txt, including the recipient, subject, message, and timestamp.
+
+**Expected Output:**
+![Email](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backupmail.png)
+
+
 **End of Demonstration Section**  
 This concludes all the required test cases and demonstrations for the Automated Backup System project.
 
