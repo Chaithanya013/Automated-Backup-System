@@ -1,0 +1,510 @@
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1106.tar.gz
+---
+Sent at 2025-11-04 11:06:18
+To: backup@local
+Subject: Backup Restore Success
+
+Backup restored successfully to: ./restore_test
+---
+Sent at 2025-11-04 11:10:19
+To: backup@local
+Subject: Backup Failed
+
+Error: Source folder not found: ./nonexistent_folder
+---
+Sent at 2025-11-04 11:10:49
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1124.tar.gz
+---
+Sent at 2025-11-04 11:24:27
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1213.tar.gz
+---
+Sent at 2025-11-04 12:13:02
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1227.tar.gz
+---
+Sent at 2025-11-04 12:27:36
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-0733.tar.gz
+---
+Sent at 2025-11-04 07:33:51
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-0827.tar.gz
+---
+Sent at 2025-11-04 08:27:51
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-01-1030.tar.gz
+---
+Sent at 2025-11-04 08:43:35
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-02-1030.tar.gz
+---
+Sent at 2025-11-04 08:44:09
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-03-1030.tar.gz
+---
+Sent at 2025-11-04 08:44:27
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1030.tar.gz
+---
+Sent at 2025-11-04 08:44:56
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-05-1030.tar.gz
+---
+Sent at 2025-11-04 08:45:09
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-06-1030.tar.gz
+---
+Sent at 2025-11-04 08:45:22
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-07-1030.tar.gz
+---
+Sent at 2025-11-04 08:45:40
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 08:46:10
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 08:46:43
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-09S-1030.tar.gz
+---
+Sent at 2025-11-04 08:51:40
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-09-1030.tar.gz
+---
+Sent at 2025-11-04 08:54:00
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-01-1030.tar.gz
+---
+Sent at 2025-11-04 09:06:32
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-02-1030.tar.gz
+---
+Sent at 2025-11-04 09:06:46
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-03-1030.tar.gz
+---
+Sent at 2025-11-04 09:07:01
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1030.tar.gz
+---
+Sent at 2025-11-04 09:07:18
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-05-1030.tar.gz
+---
+Sent at 2025-11-04 09:07:51
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-06-1030.tar.gz
+---
+Sent at 2025-11-04 09:08:02
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-07-1030.tar.gz
+---
+Sent at 2025-11-04 09:08:18
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:08:32
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:17:56
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:24:04
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:26:42
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:29:50
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:31:12
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:34:31
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:37:05
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:41:13
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:41:26
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:51:56
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-01-1030.tar.gz
+---
+Sent at 2025-11-04 09:54:58
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-02-1030.tar.gz
+---
+Sent at 2025-11-04 09:55:19
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-03-1030.tar.gz
+---
+Sent at 2025-11-04 09:55:50
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1030.tar.gz
+---
+Sent at 2025-11-04 09:56:03
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-05-1030.tar.gz
+---
+Sent at 2025-11-04 09:56:13
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-06-1030.tar.gz
+---
+Sent at 2025-11-04 09:56:27
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-07-1030.tar.gz
+---
+Sent at 2025-11-04 09:56:41
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:56:59
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-08-1030.tar.gz
+---
+Sent at 2025-11-04 09:59:37
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1003.tar.gz
+---
+Sent at 2025-11-04 10:03:21
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1007.tar.gz
+---
+Sent at 2025-11-04 10:07:26
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1009.tar.gz
+---
+Sent at 2025-11-04 10:09:22
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-02-1030.tar.gz
+---
+Sent at 2025-11-04 10:09:41
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-03-1030.tar.gz
+---
+Sent at 2025-11-04 10:09:50
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-04-1030.tar.gz
+---
+Sent at 2025-11-04 10:09:58
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-05-1030.tar.gz
+---
+Sent at 2025-11-04 10:10:06
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-06-1030.tar.gz
+---
+Sent at 2025-11-04 10:10:14
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-07-1030.tar.gz
+---
+Sent at 2025-11-04 10:10:22
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-08-1030.tar.gz
+---
+Sent at 2025-11-04 10:10:30
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-09-1030.tar.gz
+---
+Sent at 2025-11-04 10:10:44
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-09-1030.tar.gz
+---
+Sent at 2025-11-04 10:28:09
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-09-1030.tar.gz
+---
+Sent at 2025-11-04 10:32:05
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1040.tar.gz
+---
+Sent at 2025-11-04 10:40:42
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1041.tar.gz
+---
+Sent at 2025-11-04 10:41:37
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-11-04-1122.tar.gz
+---
+Sent at 2025-11-04 11:22:03
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:26:33
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:26:53
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:27:13
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:29:06
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-02-1030.tar.gz
+---
+Sent at 2025-11-04 11:32:09
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-03-1030.tar.gz
+---
+Sent at 2025-11-04 11:32:33
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-04-1030.tar.gz
+---
+Sent at 2025-11-04 11:33:31
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-05-1030.tar.gz
+---
+Sent at 2025-11-04 11:33:48
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-06-1030.tar.gz
+---
+Sent at 2025-11-04 11:33:59
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-07-1030.tar.gz
+---
+Sent at 2025-11-04 11:34:16
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-08-1030.tar.gz
+---
+Sent at 2025-11-04 11:34:33
+To: backup@local
+Subject: Backup Restore Failed
+
+Backup file not found: ./backups/backup-2025-11-04-1030.tar.gz
+---
+Sent at 2025-11-04 11:41:32
+To: backup@local
+Subject: Backup Restore Failed
+
+Backup file not found: ./backups/backup-2025-11-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:41:47
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-01-1030.tar.gz
+---
+Sent at 2025-11-04 11:52:12
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-02-1030.tar.gz
+---
+Sent at 2025-11-04 11:52:26
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-03-1030.tar.gz
+---
+Sent at 2025-11-04 11:52:41
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-04-1030.tar.gz
+---
+Sent at 2025-11-04 11:52:49
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-05-1030.tar.gz
+---
+Sent at 2025-11-04 11:52:57
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-06-1030.tar.gz
+---
+Sent at 2025-11-04 11:53:06
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-07-1030.tar.gz
+---
+Sent at 2025-11-04 11:53:16
+To: backup@local
+Subject: Backup Success
+
+Backup created successfully: ./backups/backup-2025-10-08-1030.tar.gz
+---
+Sent at 2025-11-04 11:53:25
+To: backup@local
+Subject: Backup Restore Success
+
+Backup restored successfully to ./restore_test
+---
+Sent at 2025-11-04 11:55:52
+To: backup@local
+Subject: Backup Failed
+
+Source folder not found: ./ghost_folder
+---
+Sent at 2025-11-04 12:01:09

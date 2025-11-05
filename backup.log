@@ -1,0 +1,599 @@
+[2025-11-04 10:31:07] ERROR: Source folder not found: /path/to/source_dir
+[2025-11-04 10:43:57] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:44:49] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:45:09] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:53:47] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:55:11] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:55:12] INFO: Starting backup of ./data
+[2025-11-04 10:55:12] INFO: Checksum verified successfully
+[2025-11-04 10:55:12] INFO: Backup integrity check passed
+[2025-11-04 10:55:13] SUCCESS: Backup created: ./backups/backup-2025-11-04-1055.tar.gz
+[2025-11-04 10:55:13] INFO: All tasks completed successfully.
+[2025-11-04 11:06:17] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:06:17] INFO: Starting backup of ./data
+[2025-11-04 11:06:18] INFO: Checksum verified successfully
+[2025-11-04 11:06:18] INFO: Backup integrity check passed
+[2025-11-04 11:06:18] SUCCESS: Backup created: ./backups/backup-2025-11-04-1106.tar.gz
+[2025-11-04 11:06:19] INFO: All tasks completed successfully.
+[2025-11-04 11:08:52] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:08:52] INFO: Starting backup of ./data
+[2025-11-04 11:08:52] INFO: Would run: tar -czf './backups/backup-2025-11-04-1108.tar.gz' --exclude=*.tmp --exclude=*.log -C '.' 'data'
+[2025-11-04 11:08:52] INFO: Would run: md5sum './backups/backup-2025-11-04-1108.tar.gz' > './backups/backup-2025-11-04-1108.tar.gz.md5'
+[2025-11-04 11:08:53] INFO: All tasks completed successfully.
+[2025-11-04 11:09:46] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:09:46] INFO: Listing backups in ./backups
+[2025-11-04 11:10:18] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:10:19] SUCCESS: Restored backup to ./restore_test
+[2025-11-04 11:10:49] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:10:49] ERROR: Source folder not found: ./nonexistent_folder
+[2025-11-04 11:24:25] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:24:26] INFO: Starting backup of ./data
+[2025-11-04 11:24:26] INFO: Checksum verified successfully
+[2025-11-04 11:24:27] INFO: Backup integrity check passed
+[2025-11-04 11:24:27] SUCCESS: Backup created: ./backups/backup-2025-11-04-1124.tar.gz
+[2025-11-04 11:24:27] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 12:13:01] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 12:13:01] INFO: Starting backup of ./data
+[2025-11-04 12:13:02] INFO: Checksum verified successfully
+[2025-11-04 12:13:02] INFO: Backup integrity check passed
+[2025-11-04 12:13:02] SUCCESS: Backup created: ./backups/backup-2025-11-04-1213.tar.gz
+[2025-11-04 12:13:02] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 12:27:35] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 12:27:36] INFO: Starting backup of ./data
+[2025-11-04 12:27:36] INFO: Checksum verified successfully
+[2025-11-04 12:27:36] INFO: Backup integrity check passed
+[2025-11-04 12:27:36] SUCCESS: Backup created: ./backups/backup-2025-11-04-1227.tar.gz
+[2025-11-04 12:27:36] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 07:33:50] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 07:33:51] INFO: Starting backup of ./data
+[2025-11-04 07:33:51] INFO: Checksum verified successfully
+[2025-11-04 07:33:51] INFO: Backup integrity check passed
+[2025-11-04 07:33:51] SUCCESS: Backup created: ./backups/backup-2025-11-04-0733.tar.gz
+[2025-11-04 07:33:51] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:27:51] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:27:51] INFO: Starting backup of ./data
+[2025-11-04 08:27:51] INFO: Checksum verified successfully
+[2025-11-04 08:27:51] INFO: Backup integrity check passed
+[2025-11-04 08:27:51] SUCCESS: Backup created: ./backups/backup-2025-11-04-0827.tar.gz
+[2025-11-04 08:27:51] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:43:34] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:43:34] INFO: Starting backup of ./data
+[2025-11-04 08:43:35] INFO: Checksum verified successfully
+[2025-11-04 08:43:35] INFO: Backup integrity check passed
+[2025-11-04 08:43:35] SUCCESS: Backup created: ./backups/backup-2025-11-01-1030.tar.gz
+[2025-11-04 08:43:35] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:44:09] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:44:09] INFO: Starting backup of ./data
+[2025-11-04 08:44:09] INFO: Checksum verified successfully
+[2025-11-04 08:44:09] INFO: Backup integrity check passed
+[2025-11-04 08:44:09] SUCCESS: Backup created: ./backups/backup-2025-11-02-1030.tar.gz
+[2025-11-04 08:44:09] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:44:27] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:44:27] INFO: Starting backup of ./data
+[2025-11-04 08:44:27] INFO: Checksum verified successfully
+[2025-11-04 08:44:27] INFO: Backup integrity check passed
+[2025-11-04 08:44:27] SUCCESS: Backup created: ./backups/backup-2025-11-03-1030.tar.gz
+[2025-11-04 08:44:27] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:44:56] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:44:56] INFO: Starting backup of ./data
+[2025-11-04 08:44:56] INFO: Checksum verified successfully
+[2025-11-04 08:44:56] INFO: Backup integrity check passed
+[2025-11-04 08:44:56] SUCCESS: Backup created: ./backups/backup-2025-11-04-1030.tar.gz
+[2025-11-04 08:44:56] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:45:09] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:45:09] INFO: Starting backup of ./data
+[2025-11-04 08:45:09] INFO: Checksum verified successfully
+[2025-11-04 08:45:09] INFO: Backup integrity check passed
+[2025-11-04 08:45:09] SUCCESS: Backup created: ./backups/backup-2025-11-05-1030.tar.gz
+[2025-11-04 08:45:09] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:45:22] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:45:22] INFO: Starting backup of ./data
+[2025-11-04 08:45:22] INFO: Checksum verified successfully
+[2025-11-04 08:45:22] INFO: Backup integrity check passed
+[2025-11-04 08:45:22] SUCCESS: Backup created: ./backups/backup-2025-11-06-1030.tar.gz
+[2025-11-04 08:45:22] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:45:40] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:45:40] INFO: Starting backup of ./data
+[2025-11-04 08:45:40] INFO: Checksum verified successfully
+[2025-11-04 08:45:40] INFO: Backup integrity check passed
+[2025-11-04 08:45:40] SUCCESS: Backup created: ./backups/backup-2025-11-07-1030.tar.gz
+[2025-11-04 08:45:40] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:46:10] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:46:10] INFO: Starting backup of ./data
+[2025-11-04 08:46:10] INFO: Checksum verified successfully
+[2025-11-04 08:46:10] INFO: Backup integrity check passed
+[2025-11-04 08:46:10] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 08:46:10] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:46:42] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:46:42] INFO: Starting backup of ./data
+[2025-11-04 08:46:43] INFO: Checksum verified successfully
+[2025-11-04 08:46:43] INFO: Backup integrity check passed
+[2025-11-04 08:46:43] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 08:46:43] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:51:40] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:51:40] INFO: Starting backup of ./data
+[2025-11-04 08:51:40] INFO: Checksum verified successfully
+[2025-11-04 08:51:40] INFO: Backup integrity check passed
+[2025-11-04 08:51:40] SUCCESS: Backup created: ./backups/backup-2025-11-09S-1030.tar.gz
+[2025-11-04 08:51:40] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 08:51:40] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 08:53:59] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 08:54:00] INFO: Starting backup of ./data
+[2025-11-04 08:54:00] INFO: Checksum verified successfully
+[2025-11-04 08:54:00] INFO: Backup integrity check passed
+[2025-11-04 08:54:00] SUCCESS: Backup created: ./backups/backup-2025-11-09-1030.tar.gz
+[2025-11-04 08:54:00] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:06:31] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:06:31] INFO: Starting backup of ./data
+[2025-11-04 09:06:32] INFO: Checksum verified successfully
+[2025-11-04 09:06:32] INFO: Backup integrity check passed
+[2025-11-04 09:06:32] SUCCESS: Backup created: ./backups/backup-2025-11-01-1030.tar.gz
+[2025-11-04 09:06:32] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:06:46] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:06:46] INFO: Starting backup of ./data
+[2025-11-04 09:06:46] INFO: Checksum verified successfully
+[2025-11-04 09:06:46] INFO: Backup integrity check passed
+[2025-11-04 09:06:46] SUCCESS: Backup created: ./backups/backup-2025-11-02-1030.tar.gz
+[2025-11-04 09:06:46] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:07:01] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:07:01] INFO: Starting backup of ./data
+[2025-11-04 09:07:01] INFO: Checksum verified successfully
+[2025-11-04 09:07:01] INFO: Backup integrity check passed
+[2025-11-04 09:07:01] SUCCESS: Backup created: ./backups/backup-2025-11-03-1030.tar.gz
+[2025-11-04 09:07:01] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:07:18] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:07:18] INFO: Starting backup of ./data
+[2025-11-04 09:07:18] INFO: Checksum verified successfully
+[2025-11-04 09:07:18] INFO: Backup integrity check passed
+[2025-11-04 09:07:18] SUCCESS: Backup created: ./backups/backup-2025-11-04-1030.tar.gz
+[2025-11-04 09:07:19] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:07:51] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:07:51] INFO: Starting backup of ./data
+[2025-11-04 09:07:51] INFO: Checksum verified successfully
+[2025-11-04 09:07:51] INFO: Backup integrity check passed
+[2025-11-04 09:07:51] SUCCESS: Backup created: ./backups/backup-2025-11-05-1030.tar.gz
+[2025-11-04 09:07:51] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:08:02] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:08:02] INFO: Starting backup of ./data
+[2025-11-04 09:08:02] INFO: Checksum verified successfully
+[2025-11-04 09:08:02] INFO: Backup integrity check passed
+[2025-11-04 09:08:02] SUCCESS: Backup created: ./backups/backup-2025-11-06-1030.tar.gz
+[2025-11-04 09:08:02] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:08:18] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:08:18] INFO: Starting backup of ./data
+[2025-11-04 09:08:18] INFO: Checksum verified successfully
+[2025-11-04 09:08:18] INFO: Backup integrity check passed
+[2025-11-04 09:08:18] SUCCESS: Backup created: ./backups/backup-2025-11-07-1030.tar.gz
+[2025-11-04 09:08:18] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:08:32] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:08:32] INFO: Starting backup of ./data
+[2025-11-04 09:08:32] INFO: Checksum verified successfully
+[2025-11-04 09:08:32] INFO: Backup integrity check passed
+[2025-11-04 09:08:32] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:08:32] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:17:56] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:17:56] INFO: Starting backup of ./data
+[2025-11-04 09:17:56] INFO: Checksum verified successfully
+[2025-11-04 09:17:56] INFO: Backup integrity check passed
+[2025-11-04 09:17:56] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:17:56] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:24:04] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:24:04] INFO: Starting backup of ./data
+[2025-11-04 09:24:04] INFO: Checksum verified successfully
+[2025-11-04 09:24:04] INFO: Backup integrity check passed
+[2025-11-04 09:24:04] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:24:04] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:26:42] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:26:42] INFO: Starting backup of ./data
+[2025-11-04 09:26:42] INFO: Checksum verified successfully
+[2025-11-04 09:26:42] INFO: Backup integrity check passed
+[2025-11-04 09:26:42] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:26:42] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:29:50] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:29:50] INFO: Starting backup of ./data
+[2025-11-04 09:29:50] INFO: Checksum verified successfully
+[2025-11-04 09:29:50] INFO: Backup integrity check passed
+[2025-11-04 09:29:50] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:29:50] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:31:12] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:31:12] INFO: Starting backup of ./data
+[2025-11-04 09:31:12] INFO: Checksum verified successfully
+[2025-11-04 09:31:12] INFO: Backup integrity check passed
+[2025-11-04 09:31:12] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:31:12] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:34:30] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:34:30] INFO: Starting backup of ./data
+[2025-11-04 09:34:30] INFO: Checksum verified successfully
+[2025-11-04 09:34:31] INFO: Backup integrity check passed
+[2025-11-04 09:34:31] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:34:31] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:34:31] INFO: Total backups found: 27
+[2025-11-04 09:37:04] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:37:04] INFO: Starting backup of ./data
+[2025-11-04 09:37:05] INFO: Checksum verified successfully
+[2025-11-04 09:37:05] INFO: Backup integrity check passed
+[2025-11-04 09:37:05] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:37:05] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:37:05] INFO: Total backups found: 27
+[2025-11-04 09:41:13] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:41:13] INFO: Starting backup of ./data
+[2025-11-04 09:41:13] INFO: Checksum verified successfully
+[2025-11-04 09:41:13] INFO: Backup integrity check passed
+[2025-11-04 09:41:13] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:41:13] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:41:14] INFO: Total backups found: 27
+[2025-11-04 09:41:26] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:41:26] INFO: Starting backup of ./data
+[2025-11-04 09:41:26] INFO: Checksum verified successfully
+[2025-11-04 09:41:26] INFO: Backup integrity check passed
+[2025-11-04 09:41:26] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:41:26] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:41:26] INFO: Total backups found: 27
+[2025-11-04 09:51:55] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:51:55] INFO: Starting backup of ./data
+[2025-11-04 09:51:56] INFO: Checksum verified successfully
+[2025-11-04 09:51:56] INFO: Backup integrity check passed
+[2025-11-04 09:51:56] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:51:56] INFO: Starting rotation: keep 7 daily backups
+[2025-11-04 09:51:56] INFO: Total backups found: 27
+[2025-11-04 09:54:58] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:54:58] INFO: Starting backup of ./data
+[2025-11-04 09:54:58] INFO: Checksum verified successfully
+[2025-11-04 09:54:58] INFO: Backup integrity check passed
+[2025-11-04 09:54:58] SUCCESS: Backup created: ./backups/backup-2025-11-01-1030.tar.gz
+[2025-11-04 09:54:58] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:55:19] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:55:19] INFO: Starting backup of ./data
+[2025-11-04 09:55:19] INFO: Checksum verified successfully
+[2025-11-04 09:55:19] INFO: Backup integrity check passed
+[2025-11-04 09:55:19] SUCCESS: Backup created: ./backups/backup-2025-11-02-1030.tar.gz
+[2025-11-04 09:55:19] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:55:50] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:55:50] INFO: Starting backup of ./data
+[2025-11-04 09:55:50] INFO: Checksum verified successfully
+[2025-11-04 09:55:50] INFO: Backup integrity check passed
+[2025-11-04 09:55:50] SUCCESS: Backup created: ./backups/backup-2025-11-03-1030.tar.gz
+[2025-11-04 09:55:50] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:56:02] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:56:02] INFO: Starting backup of ./data
+[2025-11-04 09:56:03] INFO: Checksum verified successfully
+[2025-11-04 09:56:03] INFO: Backup integrity check passed
+[2025-11-04 09:56:03] SUCCESS: Backup created: ./backups/backup-2025-11-04-1030.tar.gz
+[2025-11-04 09:56:03] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:56:12] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:56:12] INFO: Starting backup of ./data
+[2025-11-04 09:56:12] INFO: Checksum verified successfully
+[2025-11-04 09:56:13] INFO: Backup integrity check passed
+[2025-11-04 09:56:13] SUCCESS: Backup created: ./backups/backup-2025-11-05-1030.tar.gz
+[2025-11-04 09:56:13] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:56:27] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:56:27] INFO: Starting backup of ./data
+[2025-11-04 09:56:27] INFO: Checksum verified successfully
+[2025-11-04 09:56:27] INFO: Backup integrity check passed
+[2025-11-04 09:56:27] SUCCESS: Backup created: ./backups/backup-2025-11-06-1030.tar.gz
+[2025-11-04 09:56:27] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:56:41] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:56:41] INFO: Starting backup of ./data
+[2025-11-04 09:56:41] INFO: Checksum verified successfully
+[2025-11-04 09:56:41] INFO: Backup integrity check passed
+[2025-11-04 09:56:41] SUCCESS: Backup created: ./backups/backup-2025-11-07-1030.tar.gz
+[2025-11-04 09:56:41] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:56:59] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:56:59] INFO: Starting backup of ./data
+[2025-11-04 09:56:59] INFO: Checksum verified successfully
+[2025-11-04 09:56:59] INFO: Backup integrity check passed
+[2025-11-04 09:56:59] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:56:59] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 09:59:37] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 09:59:37] INFO: Starting backup of ./data
+[2025-11-04 09:59:37] INFO: Checksum verified successfully
+[2025-11-04 09:59:37] INFO: Backup integrity check passed
+[2025-11-04 09:59:37] SUCCESS: Backup created: ./backups/backup-2025-11-08-1030.tar.gz
+[2025-11-04 09:59:37] INFO: Starting smart rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:03:21] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:03:21] INFO: Starting backup of ./data
+[2025-11-04 10:03:21] INFO: Checksum verified successfully
+[2025-11-04 10:03:21] INFO: Backup integrity check passed
+[2025-11-04 10:03:21] SUCCESS: Backup created: ./backups/backup-2025-11-04-1003.tar.gz
+[2025-11-04 10:03:21] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:07:26] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:07:26] INFO: Starting backup of ./data
+[2025-11-04 10:07:26] INFO: Checksum verified successfully
+[2025-11-04 10:07:26] INFO: Backup integrity check passed
+[2025-11-04 10:07:26] SUCCESS: Backup created: ./backups/backup-2025-11-04-1007.tar.gz
+[2025-11-04 10:07:26] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:07:26] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:09:22] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:09:22] INFO: Starting backup of ./data
+[2025-11-04 10:09:22] INFO: Checksum verified successfully
+[2025-11-04 10:09:22] INFO: Backup integrity check passed
+[2025-11-04 10:09:22] SUCCESS: Backup created: ./backups/backup-2025-11-04-1009.tar.gz
+[2025-11-04 10:09:22] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:09:22] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:09:41] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:09:41] INFO: Starting backup of ./data
+[2025-11-04 10:09:41] INFO: Checksum verified successfully
+[2025-11-04 10:09:41] INFO: Backup integrity check passed
+[2025-11-04 10:09:41] SUCCESS: Backup created: ./backups/backup-2025-10-02-1030.tar.gz
+[2025-11-04 10:09:41] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:09:41] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:09:50] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:09:50] INFO: Starting backup of ./data
+[2025-11-04 10:09:50] INFO: Checksum verified successfully
+[2025-11-04 10:09:50] INFO: Backup integrity check passed
+[2025-11-04 10:09:50] SUCCESS: Backup created: ./backups/backup-2025-10-03-1030.tar.gz
+[2025-11-04 10:09:50] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:09:50] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:09:58] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:09:58] INFO: Starting backup of ./data
+[2025-11-04 10:09:58] INFO: Checksum verified successfully
+[2025-11-04 10:09:58] INFO: Backup integrity check passed
+[2025-11-04 10:09:58] SUCCESS: Backup created: ./backups/backup-2025-10-04-1030.tar.gz
+[2025-11-04 10:09:58] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:09:58] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:10:06] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:10:06] INFO: Starting backup of ./data
+[2025-11-04 10:10:06] INFO: Checksum verified successfully
+[2025-11-04 10:10:06] INFO: Backup integrity check passed
+[2025-11-04 10:10:06] SUCCESS: Backup created: ./backups/backup-2025-10-05-1030.tar.gz
+[2025-11-04 10:10:06] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:10:06] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:10:14] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:10:14] INFO: Starting backup of ./data
+[2025-11-04 10:10:14] INFO: Checksum verified successfully
+[2025-11-04 10:10:14] INFO: Backup integrity check passed
+[2025-11-04 10:10:14] SUCCESS: Backup created: ./backups/backup-2025-10-06-1030.tar.gz
+[2025-11-04 10:10:14] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:10:14] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:10:21] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:10:21] INFO: Starting backup of ./data
+[2025-11-04 10:10:22] INFO: Checksum verified successfully
+[2025-11-04 10:10:22] INFO: Backup integrity check passed
+[2025-11-04 10:10:22] SUCCESS: Backup created: ./backups/backup-2025-10-07-1030.tar.gz
+[2025-11-04 10:10:22] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:10:22] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:10:30] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:10:30] INFO: Starting backup of ./data
+[2025-11-04 10:10:30] INFO: Checksum verified successfully
+[2025-11-04 10:10:30] INFO: Backup integrity check passed
+[2025-11-04 10:10:30] SUCCESS: Backup created: ./backups/backup-2025-10-08-1030.tar.gz
+[2025-11-04 10:10:30] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:10:30] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:10:44] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:10:44] INFO: Starting backup of ./data
+[2025-11-04 10:10:44] INFO: Checksum verified successfully
+[2025-11-04 10:10:44] INFO: Backup integrity check passed
+[2025-11-04 10:10:44] SUCCESS: Backup created: ./backups/backup-2025-10-09-1030.tar.gz
+[2025-11-04 10:10:44] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:10:44] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:28:09] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:28:09] INFO: Starting backup of ./data
+[2025-11-04 10:28:09] INFO: Checksum verified successfully
+[2025-11-04 10:28:09] INFO: Backup integrity check passed
+[2025-11-04 10:28:09] SUCCESS: Backup created: ./backups/backup-2025-10-09-1030.tar.gz
+[2025-11-04 10:28:09] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:28:09] WARN: Skipping unrecognized backup: backup-2025-11-09S-1030.tar.gz
+[2025-11-04 10:32:05] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:32:05] INFO: Starting backup of ./data
+[2025-11-04 10:32:05] INFO: Checksum verified successfully
+[2025-11-04 10:32:05] INFO: Backup integrity check passed
+[2025-11-04 10:32:05] SUCCESS: Backup created: ./backups/backup-2025-10-09-1030.tar.gz
+[2025-11-04 10:32:05] INFO: Starting rotation: keep 7 daily, 4 weekly, 3 monthly backups
+[2025-11-04 10:40:42] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:40:42] INFO: Starting backup of ./data
+[2025-11-04 10:40:42] INFO: Checksum verified successfully
+[2025-11-04 10:40:42] INFO: Backup integrity check passed
+[2025-11-04 10:40:42] SUCCESS: Backup created: ./backups/backup-2025-11-04-1040.tar.gz
+[2025-11-04 10:40:42] Cleaning old backups...: 
+[2025-11-04 10:40:43] INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
+[2025-11-04 10:40:43] INFO: Deleted old backup: backup-2025-10-02-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-03-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-04-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-06-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-07-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-08-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-10-09-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-01-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-0733.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-0827.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1003.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1007.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1009.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1040.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1055.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1106.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1124.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-04-1213.tar.gz
+[2025-11-04 10:40:44] INFO: Deleted old backup: backup-2025-11-09-1030.tar.gz
+[2025-11-04 10:40:44] INFO: Rotation complete. Kept: 10 backups.
+[2025-11-04 10:40:44] INFO: All tasks completed successfully.
+[2025-11-04 10:41:37] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 10:41:37] INFO: Starting backup of ./data
+[2025-11-04 10:41:37] INFO: Checksum verified successfully
+[2025-11-04 10:41:37] INFO: Backup integrity check passed
+[2025-11-04 10:41:37] SUCCESS: Backup created: ./backups/backup-2025-11-04-1041.tar.gz
+[2025-11-04 10:41:37] Cleaning old backups...: 
+[2025-11-04 10:41:37] INFO: Deleted old backup: backup-2025-11-04-1041.tar.gz
+[2025-11-04 10:41:37] INFO: Rotation complete. Kept: 10 backups.
+[2025-11-04 10:41:37] INFO: All tasks completed successfully.
+[2025-11-04 11:22:02] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:22:02] INFO: Starting backup of ./data
+[2025-11-04 11:22:03] INFO: Checksum verified successfully
+[2025-11-04 11:22:03] INFO: Backup integrity check passed
+[2025-11-04 11:22:03] SUCCESS: Backup created: ./backups/backup-2025-11-04-1122.tar.gz
+[2025-11-04 11:22:03] Cleaning old backups...: 
+[2025-11-04 11:22:03] INFO: Deleted old backup: backup-2025-11-04-1122.tar.gz
+[2025-11-04 11:22:03] INFO: Rotation complete. Kept: 10 backups.
+[2025-11-04 11:22:03] INFO: All tasks completed successfully.
+[2025-11-04 11:26:32] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:26:33] INFO: Starting backup of ./data
+[2025-11-04 11:26:33] INFO: Checksum verified successfully
+[2025-11-04 11:26:33] INFO: Backup integrity check passed
+[2025-11-04 11:26:33] SUCCESS: Backup created: ./backups/backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:26:33] Cleaning old backups...: 
+[2025-11-04 11:26:33] INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:26:33] INFO: Rotation complete. Kept: 10 backups.
+[2025-11-04 11:26:33] INFO: All tasks completed successfully.
+[2025-11-04 11:26:52] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:26:52] INFO: Starting backup of ./data
+[2025-11-04 11:26:53] INFO: Checksum verified successfully
+[2025-11-04 11:26:53] INFO: Backup integrity check passed
+[2025-11-04 11:26:53] SUCCESS: Backup created: ./backups/backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:26:53] Cleaning old backups...: 
+[2025-11-04 11:26:53] INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:26:53] INFO: Rotation complete. Kept: 10 backups.
+[2025-11-04 11:26:53] INFO: All tasks completed successfully.
+[2025-11-04 11:27:13] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:27:13] INFO: Starting backup of ./data
+[2025-11-04 11:27:13] INFO: Checksum verified successfully
+[2025-11-04 11:27:13] INFO: Backup integrity check passed
+[2025-11-04 11:27:13] SUCCESS: Backup created: ./backups/backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:27:13] Cleaning old backups...: 
+[2025-11-04 11:27:13] INFO: Rotation complete. Kept: 1 backups.
+[2025-11-04 11:27:13] INFO: All tasks completed successfully.
+[2025-11-04 11:29:06] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:29:06] INFO: Starting backup of ./data
+[2025-11-04 11:29:06] INFO: Checksum verified successfully
+[2025-11-04 11:29:06] INFO: Backup integrity check passed
+[2025-11-04 11:29:06] SUCCESS: Backup created: ./backups/backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:29:06] Cleaning old backups...: 
+[2025-11-04 11:29:06] INFO: Rotation complete. Kept: 1 backups.
+[2025-11-04 11:29:06] INFO: All tasks completed successfully.
+[2025-11-04 11:32:08] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:32:08] INFO: Starting backup of ./data
+[2025-11-04 11:32:08] INFO: Checksum verified successfully
+[2025-11-04 11:32:09] INFO: Backup integrity check passed
+[2025-11-04 11:32:09] SUCCESS: Backup created: ./backups/backup-2025-10-02-1030.tar.gz
+[2025-11-04 11:32:09] Cleaning old backups...: 
+[2025-11-04 11:32:09] INFO: Rotation complete. Kept: 2 backups.
+[2025-11-04 11:32:09] INFO: All tasks completed successfully.
+[2025-11-04 11:32:33] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:32:33] INFO: Starting backup of ./data
+[2025-11-04 11:32:33] INFO: Checksum verified successfully
+[2025-11-04 11:32:33] INFO: Backup integrity check passed
+[2025-11-04 11:32:33] SUCCESS: Backup created: ./backups/backup-2025-10-03-1030.tar.gz
+[2025-11-04 11:32:33] Cleaning old backups...: 
+[2025-11-04 11:32:33] INFO: Rotation complete. Kept: 3 backups.
+[2025-11-04 11:32:33] INFO: All tasks completed successfully.
+[2025-11-04 11:33:30] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:33:30] INFO: Starting backup of ./data
+[2025-11-04 11:33:31] INFO: Checksum verified successfully
+[2025-11-04 11:33:31] INFO: Backup integrity check passed
+[2025-11-04 11:33:31] SUCCESS: Backup created: ./backups/backup-2025-10-04-1030.tar.gz
+[2025-11-04 11:33:31] Cleaning old backups...: 
+[2025-11-04 11:33:31] INFO: Rotation complete. Kept: 4 backups.
+[2025-11-04 11:33:31] INFO: All tasks completed successfully.
+[2025-11-04 11:33:48] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:33:48] INFO: Starting backup of ./data
+[2025-11-04 11:33:48] INFO: Checksum verified successfully
+[2025-11-04 11:33:48] INFO: Backup integrity check passed
+[2025-11-04 11:33:48] SUCCESS: Backup created: ./backups/backup-2025-10-05-1030.tar.gz
+[2025-11-04 11:33:48] Cleaning old backups...: 
+[2025-11-04 11:33:48] INFO: Rotation complete. Kept: 5 backups.
+[2025-11-04 11:33:48] INFO: All tasks completed successfully.
+[2025-11-04 11:33:59] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:33:59] INFO: Starting backup of ./data
+[2025-11-04 11:33:59] INFO: Checksum verified successfully
+[2025-11-04 11:33:59] INFO: Backup integrity check passed
+[2025-11-04 11:33:59] SUCCESS: Backup created: ./backups/backup-2025-10-06-1030.tar.gz
+[2025-11-04 11:33:59] Cleaning old backups...: 
+[2025-11-04 11:33:59] INFO: Rotation complete. Kept: 6 backups.
+[2025-11-04 11:33:59] INFO: All tasks completed successfully.
+[2025-11-04 11:34:16] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:34:16] INFO: Starting backup of ./data
+[2025-11-04 11:34:16] INFO: Checksum verified successfully
+[2025-11-04 11:34:16] INFO: Backup integrity check passed
+[2025-11-04 11:34:16] SUCCESS: Backup created: ./backups/backup-2025-10-07-1030.tar.gz
+[2025-11-04 11:34:16] Cleaning old backups...: 
+[2025-11-04 11:34:16] INFO: Rotation complete. Kept: 7 backups.
+[2025-11-04 11:34:16] INFO: All tasks completed successfully.
+[2025-11-04 11:34:33] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:34:33] INFO: Starting backup of ./data
+[2025-11-04 11:34:33] INFO: Checksum verified successfully
+[2025-11-04 11:34:33] INFO: Backup integrity check passed
+[2025-11-04 11:34:33] SUCCESS: Backup created: ./backups/backup-2025-10-08-1030.tar.gz
+[2025-11-04 11:34:33] Cleaning old backups...: 
+[2025-11-04 11:34:33] INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:34:33] INFO: Rotation complete. Kept: 7 backups.
+[2025-11-04 11:34:33] INFO: All tasks completed successfully.
+[2025-11-04 11:41:32] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:41:32] ERROR: Backup file not found: ./backups/backup-2025-11-04-1030.tar.gz
+[2025-11-04 11:41:47] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:41:47] ERROR: Backup file not found: ./backups/backup-2025-11-01-1030.tar.gz
+[2025-11-04 11:52:12] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:52:12] INFO: Starting backup of ./data
+[2025-11-04 11:52:12] INFO: Checksum verified successfully
+[2025-11-04 11:52:12] INFO: Backup integrity check passed
+[2025-11-04 11:52:12] SUCCESS: Backup created: ./backups/backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:52:12] Cleaning old backups...: 
+[2025-11-04 11:52:12] INFO: Rotation complete. Kept: 1 backups.
+[2025-11-04 11:52:12] INFO: All tasks completed successfully.
+[2025-11-04 11:52:26] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:52:26] INFO: Starting backup of ./data
+[2025-11-04 11:52:26] INFO: Checksum verified successfully
+[2025-11-04 11:52:26] INFO: Backup integrity check passed
+[2025-11-04 11:52:26] SUCCESS: Backup created: ./backups/backup-2025-10-02-1030.tar.gz
+[2025-11-04 11:52:26] Cleaning old backups...: 
+[2025-11-04 11:52:27] INFO: Rotation complete. Kept: 2 backups.
+[2025-11-04 11:52:27] INFO: All tasks completed successfully.
+[2025-11-04 11:52:41] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:52:41] INFO: Starting backup of ./data
+[2025-11-04 11:52:41] INFO: Checksum verified successfully
+[2025-11-04 11:52:41] INFO: Backup integrity check passed
+[2025-11-04 11:52:41] SUCCESS: Backup created: ./backups/backup-2025-10-03-1030.tar.gz
+[2025-11-04 11:52:41] Cleaning old backups...: 
+[2025-11-04 11:52:41] INFO: Rotation complete. Kept: 3 backups.
+[2025-11-04 11:52:41] INFO: All tasks completed successfully.
+[2025-11-04 11:52:49] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:52:49] INFO: Starting backup of ./data
+[2025-11-04 11:52:49] INFO: Checksum verified successfully
+[2025-11-04 11:52:49] INFO: Backup integrity check passed
+[2025-11-04 11:52:49] SUCCESS: Backup created: ./backups/backup-2025-10-04-1030.tar.gz
+[2025-11-04 11:52:49] Cleaning old backups...: 
+[2025-11-04 11:52:49] INFO: Rotation complete. Kept: 4 backups.
+[2025-11-04 11:52:49] INFO: All tasks completed successfully.
+[2025-11-04 11:52:56] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:52:56] INFO: Starting backup of ./data
+[2025-11-04 11:52:56] INFO: Checksum verified successfully
+[2025-11-04 11:52:57] INFO: Backup integrity check passed
+[2025-11-04 11:52:57] SUCCESS: Backup created: ./backups/backup-2025-10-05-1030.tar.gz
+[2025-11-04 11:52:57] Cleaning old backups...: 
+[2025-11-04 11:52:57] INFO: Rotation complete. Kept: 5 backups.
+[2025-11-04 11:52:57] INFO: All tasks completed successfully.
+[2025-11-04 11:53:06] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:53:06] INFO: Starting backup of ./data
+[2025-11-04 11:53:06] INFO: Checksum verified successfully
+[2025-11-04 11:53:06] INFO: Backup integrity check passed
+[2025-11-04 11:53:06] SUCCESS: Backup created: ./backups/backup-2025-10-06-1030.tar.gz
+[2025-11-04 11:53:06] Cleaning old backups...: 
+[2025-11-04 11:53:06] INFO: Rotation complete. Kept: 6 backups.
+[2025-11-04 11:53:06] INFO: All tasks completed successfully.
+[2025-11-04 11:53:16] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:53:16] INFO: Starting backup of ./data
+[2025-11-04 11:53:16] INFO: Checksum verified successfully
+[2025-11-04 11:53:16] INFO: Backup integrity check passed
+[2025-11-04 11:53:16] SUCCESS: Backup created: ./backups/backup-2025-10-07-1030.tar.gz
+[2025-11-04 11:53:16] Cleaning old backups...: 
+[2025-11-04 11:53:17] INFO: Rotation complete. Kept: 7 backups.
+[2025-11-04 11:53:17] INFO: All tasks completed successfully.
+[2025-11-04 11:53:24] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:53:25] INFO: Starting backup of ./data
+[2025-11-04 11:53:25] INFO: Checksum verified successfully
+[2025-11-04 11:53:25] INFO: Backup integrity check passed
+[2025-11-04 11:53:25] SUCCESS: Backup created: ./backups/backup-2025-10-08-1030.tar.gz
+[2025-11-04 11:53:25] Cleaning old backups...: 
+[2025-11-04 11:53:25] INFO: Deleted old backup: backup-2025-10-01-1030.tar.gz
+[2025-11-04 11:53:25] INFO: Rotation complete. Kept: 7 backups.
+[2025-11-04 11:53:25] INFO: All tasks completed successfully.
+[2025-11-04 11:55:52] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:55:52] SUCCESS: Restored backup to ./restore_test
+[2025-11-04 11:58:29] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 11:58:29] INFO: Starting backup of ./data
+[2025-11-04 11:58:29] INFO: Would run: tar -czf "./backups/backup-2025-10-08-1030.tar.gz" --exclude=*.tmp --exclude=*.log -C "." "data"
+[2025-11-04 11:58:29] INFO: Would run: md5sum "./backups/backup-2025-10-08-1030.tar.gz" > "./backups/backup-2025-10-08-1030.tar.gz.md5"
+[2025-11-04 11:58:29] Cleaning old backups...: 
+[2025-11-04 11:58:29] INFO: Rotation complete. Kept: 7 backups.
+[2025-11-04 11:58:29] INFO: All tasks completed successfully.
+[2025-11-04 12:01:09] INFO: Acquired lock: /tmp/backup.lock
+[2025-11-04 12:01:09] ERROR: Source folder not found: ./ghost_folder
