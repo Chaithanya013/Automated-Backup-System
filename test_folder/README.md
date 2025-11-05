@@ -1,10 +1,10 @@
-# 📸 Demonstration Examples for Automated Backup System
+# Demonstration Examples for Automated Backup System
 
 This section contains summarized descriptions for each feature demonstration, supported by screenshots in your project submission.
 
 ---
 
-### 🧩 1. Creating a Backup  
+### 1. Creating a Backup  
 **Command:**
 ```bash
 ./backup.sh ./data
@@ -19,7 +19,7 @@ SUCCESS: Backup created: ./backups/backup-YYYY-MM-DD-HHMM.tar.gz
 
 ---
 
-### 🧩 2. Creating Multiple Backups Over Several Days  
+### 2. Creating Multiple Backups Over Several Days  
 **Command Example:**
 ```bash
 TIMESTAMP="2025-11-01-1030"
@@ -32,7 +32,7 @@ Backups were created with modified timestamps to simulate backups across multipl
 
 ---
 
-### 🧩 3. Automatic Deletion of Old Backups  
+### 3. Automatic Deletion of Old Backups  
 **Description:**  
 Once the number of backups exceeded the retention policy (7 daily, 4 weekly, 3 monthly), the system identified and removed outdated ones. The deletion events were logged:
 ```
@@ -43,7 +43,7 @@ This ensured efficient disk space usage and validated the smart rotation logic.
 
 ---
 
-### 🧩 4. Restoring from a Backup  
+### 4. Restoring from a Backup  
 **Command:**
 ```bash
 ./backup.sh --restore ./backups/backup-2025-10-08-1030.tar.gz --to ./restore_test
@@ -58,7 +58,7 @@ SUCCESS: Restored backup to ./restore_test
 
 ---
 
-### 🧩 5. Dry Run Mode  
+### 5. Dry Run Mode  
 **Command:**
 ```bash
 ./backup.sh --dry-run ./data
@@ -73,7 +73,7 @@ This feature provided a safe preview before actual backups.
 
 ---
 
-### 🧩 6. Error Handling (Folder Doesn’t Exist)  
+### 6. Error Handling (Folder Doesn’t Exist)  
 **Command:**
 ```bash
 ./backup.sh ./ghost_folder
