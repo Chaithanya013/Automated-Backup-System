@@ -14,7 +14,7 @@ A new backup was successfully created for the `./data` folder. The script compre
 
 **Expected Output:**
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup.png
+![backup](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup.png)
 
 ---
 
@@ -31,11 +31,11 @@ Backups were created with modified timestamps to simulate backups across multipl
 
 **Expected Output:**
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Creating_multiple_backups_over_several_Days.png
+![Creating_Multiple_Backups](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Creating_multiple_backups_over_several_Days.png)
 
 Listing Backups:
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup_list.png
+![Backup_List](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Backup_list.png)
 
 ---
 
@@ -45,7 +45,7 @@ Once the number of backups exceeded the retention policy (7 daily, 4 weekly, 3 m
 
 **Expected Output:**
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Automatic_Deletion_of_Old_Backup.png
+![Automatic_Deletion](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Automatic_Deletion_of_Old_Backup.png)
 
 
 ---
@@ -60,7 +60,7 @@ The restore functionality extracted archived files back into a directory (`./res
 
 **Expected Output:**
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Restoring_from_a_backup.png
+![Restoring_From_Backup](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Restoring_from_a_backup.png)
 
 ---
 
@@ -75,7 +75,7 @@ Dry-run mode simulated backup operations without performing real file changes.
 **Expected Output:**
 
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Dry_Run_Mode.png
+![Dry_Run_Mode](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Dry_Run_Mode.png)
 
 
 This feature provided a safe preview before actual backups.
@@ -92,7 +92,7 @@ The script detected that the target folder did not exist and safely aborted with
 
 **Expected Output:**
 
-https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Error_Handling.png
+![Error_Handling](https://github.com/Chaithanya013/Automated-Backup-System/blob/fbb2632da0b73f6de24defbba575d9869dda3f34/test_folder/Error_Handling.png)
 
 This validated the script’s resilience and proper error handling.
 ---
