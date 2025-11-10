@@ -207,7 +207,7 @@ Sent at 2025-11-04 11:05:23
 This project successfully automates the entire backup lifecycle — from creation to rotation, verification, restoration, and reporting — using pure Bash scripting. It’s lightweight, fully configurable, and ideal for personal or small server environments.
 
 
-### 🧑‍💻 Developer
+### Developer
 
 **Name:** Venuthurla Siva Chaithanya  
 **Email:**  chaithanyav.0203@gmail.com
