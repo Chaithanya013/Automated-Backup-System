@@ -17,7 +17,7 @@ It helps users and system administrators easily automate their backup processes,
 
 ### Installation Steps (From GitHub)
 
-#### 1️⃣ Clone the Repository  
+#### 1. Clone the Repository  
 To install this project on your system:  
 ```bash
 # Navigate to the location where you want to install
@@ -29,14 +29,14 @@ git clone https://github.com/<your-username>/Automated_Backup_System.git
 # Move into the project directory
 cd Automated_Backup_System
 ```
-> 🔁 Replace `<your-username>` with your actual GitHub username.
+>  Replace `<your-username>` with your actual GitHub username.
 
-#### 2️⃣ Make the Script Executable  
+#### 2️. Make the Script Executable  
 ```bash
 chmod +x backup.sh
 ```
 
-#### 3️⃣ Edit Configuration File  
+#### 3️. Edit Configuration File  
 Open and modify `backup.config` as needed:  
 ```bash
 nano backup.config
@@ -52,7 +52,7 @@ MONTHLY_KEEP=3
 EMAIL_ADDRESS="backup@local"
 ```
 
-#### 4️⃣ Run the Script  
+#### 4️. Run the Script  
 To test the backup system:
 ```bash
 mkdir data
@@ -61,7 +61,7 @@ echo "sample file" > data/test.txt
 ```
 This will create your first backup in the `./backups` folder.
 
-#### 5️⃣ (Optional) Restore or Dry Run
+#### 5️. (Optional) Restore or Dry Run
 Restore from a backup:
 ```bash
 ./backup.sh --restore ./backups/backup-YYYY-MM-DD-HHMM.tar.gz --to ./restore_test
@@ -71,7 +71,7 @@ Run in dry mode:
 ./backup.sh --dry-run ./data
 ```
 
-#### 6️⃣ Command Cheat Sheet
+#### 6️. Command Cheat Sheet
 | Command | Description |
 |----------|--------------|
 | `./backup.sh <folder>` | Creates a new backup of the specified folder |
@@ -84,22 +84,22 @@ Run in dry mode:
 
 ## C. How It Works
 
-### 1️⃣ Backup Creation
+### 1️. Backup Creation
 - Uses `tar` to compress the target directory into `.tar.gz`.
 - Generates a checksum (`.md5`) to verify file integrity.
 
-### 2️⃣ Rotation Algorithm
+### 2️. Rotation Algorithm
 Backups are automatically cleaned up:
 - Keeps **last 7 daily**, **4 weekly**, and **3 monthly** backups.
 - Deletes any older backups beyond these limits.
 - Uses timestamps (`backup-YYYY-MM-DD-HHMM.tar.gz`) to identify backup age.
 
-### 3️⃣ Verification
+### 3️. Verification
 After creating a backup:
 - The script verifies the checksum with `md5sum -c`.
 - Tests archive integrity using `tar -tzf`.
 
-### 4️⃣ Folder Structure Example
+### 4️. Folder Structure Example
 ```
 Automated_Backup_system/
 ├── backup.sh
